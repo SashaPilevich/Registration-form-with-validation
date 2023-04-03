@@ -5,7 +5,7 @@ import {
   validateEmail,
   validatePassword,
   validateConfirmation,
-} from "/validation.js";
+} from "../js/validation.js";
 const form = document.querySelector("#registration-form");
 const firstName = form.querySelector("#name");
 const surname = document.querySelector("#surname");
