@@ -196,8 +196,22 @@ form button:hover {
     background-size: contain;
     background-position: top center;
   }
+}
+@media (max-width: 370px) {
+  form {
+    padding: 5px;
+    margin-left: 20px;
+  }
   form input {
-    width: 21em;
+    width: 23em;
+  }
+  form button {
+    width: 18em;
+  }
+}
+@media (max-width: 340px) {
+  form {
+    margin-left: 5px;
   }
 }
 
